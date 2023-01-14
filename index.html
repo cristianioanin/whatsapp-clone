@@ -12,12 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
   </head>
   <body>
     <nav id="navbar-main">
       <a href="#"><img src="./images/wtsp-logo.png" width="130" /></a>
       <ul>
-        <li><a href="#" class="link-primary">Features #</a></li>
+        <li>
+          <a href="#" class="link-primary">Features #</a
+          ><button id="features">&darr;</button>
+        </li>
         <li><a href="#" class="link-primary">Privacy #</a></li>
         <li><a href="#" class="link-primary">Help Center #</a></li>
         <li><a href="#" class="link-primary">Blog #</a></li>
@@ -119,7 +123,7 @@
         </svg>
       </button>
     </nav>
-    <aside>
+    <aside id="features-aside">
       <ul>
         <li>
           <a href="#">

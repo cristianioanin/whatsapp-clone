@@ -114,3 +114,11 @@ aside ul li {
     display: flex;
   }
 }
+
+#features-aside {
+  display: none;
+}
+
+#features-aside.show {
+  display: block;
+}
