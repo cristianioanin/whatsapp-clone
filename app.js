@@ -1,3 +1,3 @@
 document.querySelector('#features').addEventListener('click', () => {
-  document.querySelector('#features-aside').classList.add('show');
+  document.querySelector('#features-aside').classList.toggle('show-me');
 });
