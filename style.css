@@ -105,7 +105,7 @@ aside ul li {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   #navbar-main {
     display: none;
   }
